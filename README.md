@@ -9,8 +9,8 @@ HeatSignal turns satellite-derived temperature data into real financial signals 
 [![FortyGuard](https://img.shields.io/badge/Powered%20by-FortyGuard%20Temperature%20API-E4572E)](https://fortyguard.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> 📺 **Demo video:** [Add YouTube/Loom link here]
-> 🚀 **Live demo:** [Add live app link here]
+> 📺 **Demo video:** https://youtu.be/joFXit7z_Zc
+> 🚀 **Live demo:** [https://heatsignal-fortyguard.streamlit.app/]
 >
 > *(GitHub doesn't autoplay local video files in a README — the app itself autoplays `assets/hero_video.mp4` as a hero banner once it's running.)*
 

@@ -115,15 +115,18 @@ Want fresh data or a different city? Regenerate it from the [FortyGuard starter 
 
 ## Deployment
 
-This app is deployed for judging on **Hugging Face Spaces** (Streamlit SDK), chosen specifically because free Spaces auto-restart on the next visit rather than requiring a manual "wake up" click.
+This app is deployed for judging on **Streamlit Community Cloud**, with a free uptime monitor (UptimeRobot) pinging it every 5 minutes so it never crosses the 12-hour idle threshold that puts free-tier apps to sleep.
 
 <details>
 <summary>Deploy your own copy</summary>
 
-1. Create a new Space at [huggingface.co/new-space](https://huggingface.co/new-space), SDK = **Streamlit**.
-2. Push this repo's contents to the Space repo (or connect it via GitHub sync).
-3. Hugging Face auto-detects `app.py` and `requirements.txt` — no extra config needed.
-4. Your app is live at `https://huggingface.co/spaces/<username>/<space-name>`.
+1. Push this repo to a public GitHub repository.
+2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
+3. Click **New app**, select this repo and branch, set the main file to `app.py`, and click **Deploy**.
+4. Your app is live at `https://<your-app-name>.streamlit.app`.
+5. (Recommended) Add a free monitor at [uptimerobot.com](https://uptimerobot.com) pinging that URL every 5 minutes to keep it awake through judging.
+
+The included `.streamlit/config.toml` locks the app to its light theme regardless of a visitor's device dark-mode setting.
 
 </details>
 

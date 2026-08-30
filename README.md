@@ -99,7 +99,7 @@ heatsignal_dashboard/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/heatsignal.git
+git clone https://github.com/OUSAMA-ELWA7ED/heatsignal.git
 cd heatsignal
 
 # 2. Install dependencies
